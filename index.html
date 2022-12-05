@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer  src="script.js"></script>
+</head>
+<body>
+    <main data-theme="dark">
+        <header class="flex align-center justify-betwee">
+        <h1>Calculator</h1> 
+    </header> 
+    <button id="themeSwitcher">Turn mode</button>
+    <br> 
+    <input type="text" id="input">  <br>
+    <div id="keys">
+        <button id="clear"> C </button>
+        <button class="charKey" data-value="(" id="btn" > ( </button>
+        <button class="charKey" data-value=")"  id="btn"> ) </button>
+        <button class="charKey" data-value="/" id="btn"> / </button>
+        <button class="charKey" data-value="7" id="btn"> 7 </button>
+        <button class="charKey" data-value="8" id="btn"> 8 </button>
+        <button class="charKey" data-value="9" id="btn"> 9 </button>
+        <button class="charKey" data-value=" * " id="btn"> *  </button>
+        <button class="charKey" data-value="4" id="btn"> 4 </button>
+        <button class="charKey" data-value="5"id="btn"> 5 </button>
+        <button class="charKey" data-value="6" id="btn"> 6 </button>
+        <button class="charKey" data-value=" - " id="btn"> -</button>
+        <button class="charKey" data-value="1" id="btn"> 1</button>
+        <button class="charKey" data-value="2" id="btn"> 2</button>
+        <button class="charKey" data-value="3" id="btn"> 3</button>
+        <button class="charKey" data-value=" + " id="btn"> + </button>
+        <button class="charKey" data-value="0" id="btn"> 0 </button>
+        <button class="charKey" data-value=" . " id="btn"> . </button>
+        <button class="charKey" data-value=" % " id="btn"> mod</button>
+        <button id="equal" id="btn"> = </button>
+    </div>
+    <section class="flex align-center justify-between">
+        <button id="copyToClipboard"> Copy </button>
+        <input type="text" id="result" disabled>
+    </section>
+    </main>
+</body>
+</html>
